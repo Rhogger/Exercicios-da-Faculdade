@@ -1,6 +1,11 @@
+<div align="center">
+<img width="50%" src="https://github.com/Rhogger/Exercicios-da-Faculdade/blob/main/images/fasoft.png">
+</div>
+  
 <h1 align="center">
 Exercícios da Faculdade
 </h1>
+
 
 <h3 align="center">
 Sobre

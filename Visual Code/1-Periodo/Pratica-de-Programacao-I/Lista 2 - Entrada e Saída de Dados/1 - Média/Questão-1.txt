@@ -1,0 +1,1 @@
+1 - Faça um programa em Java, onde o usuário entre com o nome do aluno, duas notas e o programa imprima o nome do aluno e sua média

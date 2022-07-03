@@ -1,0 +1,3 @@
+3 - Crie um programa que leia o valor do salário mínimo e o valor do salário de um usuário, calcule a quantidade de salários mínimos que o usuário ganha e imprima o resultado.  Caso o salário seja menor que 1100, retornar a mensagem de que o valor é inválido.
+
+OBS:  Levar em conta o salário de 1100,00

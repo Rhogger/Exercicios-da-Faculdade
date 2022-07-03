@@ -1,0 +1,2 @@
+3 - Faça um programa que peça o nome, idade e cidade de nascimento do usuário. Em seguida, imprima a frase:
+Ola <nome>, <idade>, <cidade> seja bem vindo..

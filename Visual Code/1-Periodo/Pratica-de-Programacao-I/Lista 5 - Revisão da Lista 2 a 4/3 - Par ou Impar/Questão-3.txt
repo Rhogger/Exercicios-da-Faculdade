@@ -1,0 +1,1 @@
+3 - Faça um programa em Java que dado um número inteiro, retorne se ele é par ou ímpar

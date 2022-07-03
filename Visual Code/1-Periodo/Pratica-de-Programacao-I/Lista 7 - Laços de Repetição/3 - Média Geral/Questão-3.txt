@@ -1,0 +1,1 @@
+3 - Crie um programa em Java, que calcule a média de 5 estudantes, para isso, solicite ao usuário a entrada de dois valores inteiros: Nota1 e Nota2. Ao final, o programa deverá apresentar a média geral da turma.

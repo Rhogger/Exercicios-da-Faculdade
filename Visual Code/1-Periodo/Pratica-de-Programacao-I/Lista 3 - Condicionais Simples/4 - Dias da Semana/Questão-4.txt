@@ -1,0 +1,1 @@
+4 - Criar um programa em Java  que leia o um número inteiro entre 1 e 7 e escreva o dia da semana correspondente. Se o valor estiver fora desse intervalo, imprimir uma mensagem informando que está fora da faixa

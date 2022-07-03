@@ -1,0 +1,1 @@
+7) Faça um programa em Java, que peça ao usuário a descrição de um produto, o valor e a quantidade e imprima o nome e o valor do produto

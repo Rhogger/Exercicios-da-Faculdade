@@ -1,0 +1,1 @@
+03. Construa um programa que, dado o primeiro elemento e a razão de uma progressão aritmética (PA), imprima todos os n primeiros elementos da PA, em que n também é informado pelo usuário. Lembre-se que uma PA pode ser crescente ou decrescente. Em seguida, leia novo termo e razão e imprima os n primeiros elementos de uma progressão geométrica (PG).

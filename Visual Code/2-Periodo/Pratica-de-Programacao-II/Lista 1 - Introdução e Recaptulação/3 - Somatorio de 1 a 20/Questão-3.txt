@@ -1,0 +1,1 @@
+3) Calcular a soma dos valores de 1 até 20.

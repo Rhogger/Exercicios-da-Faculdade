@@ -1,0 +1,1 @@
+04. Dadas as sequências do ex. 02, implemente o algoritmo InsertionSort mostrando quantas trocas e quantas comparações são feitas durante a ordenação, compare e analise os resultados com os algoritmos de seleção e bolha.

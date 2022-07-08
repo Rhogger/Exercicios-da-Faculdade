@@ -1,0 +1,8 @@
+06. (Exercício dos slides de aula) Utilizando o algoritmo ShellSort com k = 3, obtenha o número de comparações e movimentações em cada passo (h e i) para os seguintes vetores:
+
+ƒ 45,56,12,43,95,19,8,67
+ƒ 8,12,19,43,45,56,67,95
+ƒ 95,67,56,45,43,19,12,8
+ƒ 19,12,8,45,43,56,67,95
+
+Depois mostre a saída do vetor a cada iteração.

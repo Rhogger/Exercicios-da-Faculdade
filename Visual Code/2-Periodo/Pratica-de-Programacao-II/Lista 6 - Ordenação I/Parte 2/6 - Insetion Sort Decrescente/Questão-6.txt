@@ -1,0 +1,1 @@
+6. Adapte o método insertionsort para ordenar um vetor em ordem decrescente.

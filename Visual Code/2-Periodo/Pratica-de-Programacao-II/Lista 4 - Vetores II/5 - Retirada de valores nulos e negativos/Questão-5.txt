@@ -1,0 +1,1 @@
+5. Faça um algoritmo que leia um vetor S[20]. A seguir, compacte este vetor, retirando todos osvalores nulos ou negativos e mostre então o vetor compactado.

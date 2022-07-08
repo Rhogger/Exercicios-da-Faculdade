@@ -1,0 +1,3 @@
+02. Dada as sequências a seguir, implemente um programa de ordenação com método bolha. Neste
+programa, imprima a quantidade de trocas e comparações que são realizadas na ordenação de
+cada vetor. Utilize uma versão otimizada do método (verificando se o vetor já está ordenado).

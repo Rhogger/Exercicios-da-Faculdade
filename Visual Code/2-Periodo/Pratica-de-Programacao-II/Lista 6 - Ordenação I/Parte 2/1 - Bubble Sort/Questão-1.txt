@@ -1,0 +1,1 @@
+Simule a execução do algoritmo bubblesort para ordenar o vetor v=〈92, 80, 71, 63, 55, 41, 39, 27, 14〉. Obs.: Para simular o algoritmo como na imagem abaixo é necessário imprimir as saídas intermediárias durante a ordenação.

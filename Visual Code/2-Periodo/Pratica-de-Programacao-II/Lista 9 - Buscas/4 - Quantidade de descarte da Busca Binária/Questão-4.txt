@@ -1,0 +1,7 @@
+4. Altere o método de busca binária para que, a cada divisão do vetor, ele imprima quantos elementos foram descartados na busca.
+
+a) Digite a quantidade de elementos do vetor: 5
+b) Digite os elementos do vetor: 1 2 3 4 5
+c) Digite o elemento procurado: 1
+d) 1ª iteração: 3
+e) 2ª iteração: 1

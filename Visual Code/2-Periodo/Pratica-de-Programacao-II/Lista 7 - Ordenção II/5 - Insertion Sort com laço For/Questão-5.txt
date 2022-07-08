@@ -1,0 +1,1 @@
+05. Altere a implementação do algoritmo InsertionSort para usar o laço for ao invés do laço while.

@@ -1,0 +1,1 @@
+Construa um programa que leia n caracteres, inserindo-os em um vetor. Ordene o vetor utilizando o algoritmo Insertion Sort. Ao final do programa, mostre a lista ordenada alfabeticamente.

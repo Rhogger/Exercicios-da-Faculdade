@@ -1,0 +1,1 @@
+03. Dadas as sequências do ex. 02, implemente o algoritmo SelectionSort mostrando quantas trocas e quantas comparações são feitas durante a ordenação, compare e analise os resultados com o algoritmo da bolha.

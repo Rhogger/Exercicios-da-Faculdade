@@ -1,0 +1,1 @@
+6) Ler um número inteiro e escrever se ele é primo ou não.

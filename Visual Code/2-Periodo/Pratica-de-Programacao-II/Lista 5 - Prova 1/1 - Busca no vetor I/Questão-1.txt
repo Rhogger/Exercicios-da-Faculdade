@@ -1,0 +1,1 @@
+1) Crie um programa Java que possua uma lista e verifique se determinado valor inteiro está presente em sua lista. Ou seja, percorra todos os elementos até encontrar uma correspondência.

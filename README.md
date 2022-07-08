@@ -48,6 +48,5 @@ As seguintes disciplinas terão seus arquivos separadamente:
 - Requisitos de Software
 - Paradigmas de Programação
 - Leitura de Software
-- Engenharia do Produto
 
 <hr>

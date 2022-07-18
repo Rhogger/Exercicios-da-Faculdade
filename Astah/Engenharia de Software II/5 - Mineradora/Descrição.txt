@@ -1,0 +1,42 @@
+Estudo de caso 01  
+A Minas Pira Ltda. É uma indústria de mineração que trabalha com diferentes tipos de  minérios, extraídos de um total de oito minas espalhadas pelo estado. A empresa deseja  criar um sistema de computador para controlar a extração, o processamento e a venda de  minérios e para isso contratou a sua equipe. Cada mina é supervisionada por um gerente  geral que possui vários coordenadores de produção a seu serviço. Como os minérios  extraídos possuem um valor elevado, somente o gerente geral de cada unidade pode ter  acesso ao sistema administrativo por meio de controle por impressão digital. A cada dia, o  gerente geral inicia a produção no sistema e entrega para cada coordenador um tablet  galaxy tab executando Android 5.0 para controle de seus funcionários e de seu  departamento. A cada vagonete de minério produzido, o coordenador registra o tipo de  minério, o peso, a equipe de mineração (composta por vários mineradores), a data e a hora.  Como a mina não tem cobertura wireless, os dados ficam armazenados até que se complete  a carga de um caminhão de mineração. Assim que a carga é completada, o coordenador se  encaminha a um ponto de internet e efetua a baixa no caminhão, liberando-o para o  transporte. Ao final do dia, o coordenador se encaminha à sala do gerente e encerra no  sistema sua produção diária, devolvendo o tablete em seguida para carga. O Gerente, por  sua vez, controla toda a produção da mina, tendo acesso em tempo real à situação do  carregamento de cada caminhão, o tipo de minério, o grau de pureza e o motorista  responsável pelo transporte de cada caminhão à central. O gerente tem acesso a isso tudo  por meio de uma estação de trabalho executando Ubuntu Linux. Ao final do seu dia de  trabalho, o gerente finaliza a produção da mina inteira no sistema e controla o ponto de  todos os funcionários, gerando e encaminhando um relatório de produção para a central. O  diretor é um profissional que trabalha na  central da empresa e executa suas funções no  sistema por meio de interface web (executando em um browser). O diretor visualiza a  produção de cada mina, a quantidade de remessas para a central de beneficiamento e o  grau de pureza dos lingotes gerados. O secretário controla a chegada dos caminhões, o  processo de depuração do minério e a fundição dos diferentes tipos de minério em lingotes.  Cada lingote possui uma origem, uma data de produção, uma composição e um grau de  pureza. O secretário também é responsável pelo cadastro de compradores, pela geração de  notas fiscais de venda dos produtos da empresa e pode conversar com o gerente de cada  mina através de uma tela de chat. O secretário pode estabelecer metas de produção para  uma mina contendo o tipo de minério desejado, a quantidade e a data-limite para o  cumprimento da meta.
+
+
+1 – Identificar e nomear quantos e quais são os atores
+
+São 4 atores, sendo eles:
+
+-Gerente Geral;
+-Coordenadores de Produção;
+-Diretor;
+-Secretário;
+
+
+2 – Identificar quais as ações de cada ator no sistema
+
+-Gerente Geral (Usuário de Ubuntu Linux): Supervisiona todas as minas, Acesso ao Sistema Administrativo por meio de controle por Impressão Digital, Inicia a produção no sistema, Controla toda a produção da mina, tendo acesso em tempo real à situação do carregamento de cada caminhão, o tipo de minério, o grau de pureza e o motorista responsável pelo transporte de cada caminhão à central, Finaliza a produção da mina inteira no Sistema e controla o ponto de todos os funcionários, gerando e encaminhando um relatório de produção para a Central.
+
+-Coordenadores de Produção(Usuário de Android 5.0):  Controla os funcionários e seu departamento, A cada vagonete de minério produzido, o coordenador registra o tipo de  minério, o peso, a equipe de mineração (composta por vários mineradores), a data e a hora, Efetua a baixa no caminhão (quando há internet), liberando-o para o  transporte, Encerra no  sistema sua produção diária.
+
+-Diretor(Interface Web): Visualiza a produção de cada mina, a quantidade de remessa para a central de beneficiamento e o grau de pureza dos lingotes gerados.
+
+-Secretário: Controla a chegada dos caminhões,  É responsável pelo cadastro de compradores, pela geração de notas fiscais de venda dos produtos da empresa e pode conversar com o gerente de cada  mina através de uma tela de chat, Pode estabelecer metas de produção para  uma mina contendo o tipo de minério desejado, a quantidade e a data-limite para o  cumprimento da meta.
+
+
+3 – Identificar ações repetidas. Isso pode indicar generalização. Exemplo: Cliente faz login e
+Gerente faz login, logo a ação “fazer login” pode ser generalizada (pode ser criado um ator
+único que acessa a ação “fazer login” e dele podem ser derivados outros usando a notação
+adequada)
+
+Não possui.
+
+4 – Identificar se é possível agrupar os casos de uso em módulos (retângulos)
+
+Sim, por SO/Web e caso haja ou não Internet.
+
+5 – Identificar se um caso de uso dispara alguma funcionalidade (notação <<extend>> ou
+<<include>>)
+Gerente: Colocar o dedo para fazer a impressão digital <Include> Entrar no Sistema Administrativo;       Finalizar a produção diária  <Include>  Gerar e encaminhar relatório à Central.
+ 
+Coordenadores de Produção : (Cancelado, pois eu fiz em forma de comentário)
+Se não houver Internet: Verificar se a carga do caminhão está completa <Include> Acessar Internet <Include> Liberar motorista.   

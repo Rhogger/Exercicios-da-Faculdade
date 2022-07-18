@@ -1,0 +1,19 @@
+1 – Identificar e nomear quantos e quais são os atores 
+4 atores, sendo eles: Proprietário dos imóveis, Cliente locatário, Cliente a procura de um imovel e Cobrador. 
+
+
+2 – Identificar quais as ações de cada ator no sistema 
+Proprietário: Efetuar Login, cadastrar seus imóveis no  aplicativo, contendo endereço, apelido, descrição e preço de aluguel, consegue visualizar propostas feitas por pessoas que desejam alugar um de seus  imóveis, os dados dos locatários de seus imóveis, solicitar os serviços de um cobrador também  cadastrado no sistema e mudar o status de um imóvel de “disponível” para “indisponível".
+Cliente: Efetuar Login, pode ver imóveis disponíveis para aluguel  em uma determinada área, oferecer propostas para proprietários e pesquisar imóveis de acordo  com preço, número de quartos e tipo de imóvel (barracão, apartamento, casa), ao oferecer uma  proposta, o sistema verifica automaticamente a situação do cliente junto ao Serviço de Proteção  ao Crédito.
+Locatário: Efetuar login, pode visualizar seu contrato de locação, enviar mensagem para o proprietário,  solicitar reparos no imóvel, visualizar aluguéis vencidos e a vencer e histórico de pagamentos.
+Cobrador: Efetuar Login, pode visualizar cobranças a efetuar, solicitar negativação do CPF do locatário em  caso de aluguéis vencidos e não pagos, enviar mensagem para o locatário e para o proprietário  e gerar cobrança judicial. 
+
+
+3 – Identificar ações repetidas. Isso pode indicar generalização. Exemplo: Cliente faz login e  Gerente faz login, logo a ação “fazer login” pode ser generalizada (pode ser criado um ator  único que acessa a ação “fazer login” e dele podem ser derivados outros usando a notação  adequada) 
+Generalização: Cadastrar no Sistema e efetuar login.
+
+4 – Identificar se é possível agrupar os casos de uso em módulos (retângulos) 
+Sim, um módulo por ator.
+
+5 – Identificar se um caso de uso dispara alguma funcionalidade (notação <<extend>> ou  <<include>>)
+Include: ao oferecer uma  proposta, o sistema verifica automaticamente a situação do cliente junto ao Serviço de Proteção  ao Crédito.

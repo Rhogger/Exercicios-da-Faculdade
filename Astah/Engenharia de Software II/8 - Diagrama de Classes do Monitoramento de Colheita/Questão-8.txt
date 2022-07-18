@@ -1,0 +1,6 @@
+Construir os diagramas de classe referentes aos exercícios da aula anterior. Os diagramas devem conter:
+- Nome da classe
+- Atributos
+- Métodos
+- Relacionamentos entre classes
+- Possíveis relações de herança

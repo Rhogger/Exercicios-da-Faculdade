@@ -1,0 +1,8 @@
+Escolher DOIS SISTEMAS e elaborar: 
+– Diagrama de caso de uso
+ – 2 sequencias principais (NÃO PODE LOGIN) 
+– Diagrama de classes (com atributos, características e relações entre classes) 
+– diagrama de estados descrevendo os processos principais do software 
+– Vídeo explicando os diagramas (NÃO MANDAR O ARQUIVO DE VÍDEO, HOSPEDAR)  
+
+Responder a essa atividade com links para os vídeos.

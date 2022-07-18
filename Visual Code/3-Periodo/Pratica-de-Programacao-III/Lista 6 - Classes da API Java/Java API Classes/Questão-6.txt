@@ -1,0 +1,1 @@
+Crie um programa em Java que simule a criação de um cadastro. Deverá ser informado o nome e o e-mail. O sistema só deve permitir realizar cadastro caso o e-mail digitado seja válido. Um e-mail é considerado válido caso possua os caracteres arroba (@) e ponto (.). Além disso, o nome anterior ao @ deve possuir no mínimo 2 caracteres.

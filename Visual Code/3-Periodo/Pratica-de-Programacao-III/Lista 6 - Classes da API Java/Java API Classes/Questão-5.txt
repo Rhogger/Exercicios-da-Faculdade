@@ -1,0 +1,1 @@
+Crie um programa em Java que leia duas palavras do usuário e, em seguida, escreva-as em ordem alfabéticas.

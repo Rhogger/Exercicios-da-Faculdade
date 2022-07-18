@@ -1,0 +1,1 @@
+2- Crie uma classe “Supermercado”, que deverá ter as classes Produto e Venda. Identifique os atributos e métodos que essas classes poderiam possuir e implemente a abstração, polimorfismo e herança.

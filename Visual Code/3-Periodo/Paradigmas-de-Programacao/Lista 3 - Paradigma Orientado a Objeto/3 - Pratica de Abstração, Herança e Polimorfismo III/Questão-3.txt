@@ -1,0 +1,1 @@
+3- Tente recriar os exercicios acima, porém com as classes Pessoa, Funcionario e Cliente (Atributos e Métodos ficam livres para voce definir).

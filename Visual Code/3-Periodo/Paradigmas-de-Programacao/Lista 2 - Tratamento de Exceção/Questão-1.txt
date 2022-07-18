@@ -1,0 +1,29 @@
+Criar um programa em java quer receba as seguintes informações do usuario:
+
+-Nome
+-Idade
+-Salário
+
+O programa deverá executar a ação de inserção quantas vezes o usuario quiser (pode-se escolher qualquer método de parada).
+
+Realize a tratativa de exceções utilizando:
+
+-ArithmeticException (Para exceções matemáticas)
+-NullPointerException(Para valores NULL's)
+-Exception (Para as demais exceções)
+
+Caso for utilizar arrays/vetores, tente implementar a ArrayIndexOutOfBounds
+
+Ao final, adicionar o finally informando p/ o usuário a quantidade de execuções teve o programa. Exemplo:
+Execução 1:
+Nome Vinicius Felix
+Idade: 31
+Salario 1000.00
+Execução 2:
+Nome Joao
+Idade 22
+Salario 750.40
+Execução 3
+Nome Maria
+Idade 26
+Salario 1100

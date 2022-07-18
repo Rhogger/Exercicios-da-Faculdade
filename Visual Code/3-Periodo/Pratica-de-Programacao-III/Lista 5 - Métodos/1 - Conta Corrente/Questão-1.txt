@@ -1,0 +1,21 @@
+Crie uma classe ContaCorrente que obedeça à  descrição abaixo:
+A classe possui o atributo saldo do tipo float e os  métodos definirSaldoInicial, depositar e sacar.
+
+O método definirSaldoInicial deve atribuir o valor  passado por parâmetro ao atribuito saldo
+
+O método depositar, deve adicionar o valor passado  por parâmetro ao atributo saldo
+
+O método sacar deve reduzir o valor passado por  parâmetro do salto já existente
+
+Perceba que é necessário verificar a condição do valor do saldo para saber se é  insuficiente para o saque que se deseja fazer.
+
+O valor de retorno deve ser true (verdadeiro) quando for possível realizar  o saque e false (falso) quando não for possível
+
+Crie um objeto novaConta do tipo ContaCorrente.
+Chame o método definirSaldoInicial passando o valor 1000 como parâmetro.
+Escreva o valor do atributo saldo
+Realize um saque de 500 reais (utilize o método sacar).
+Faça um depósito de 50 reais (utilize o método depositar)
+Escreva o valor do atributo saldo na tela.
+Realize um saque de 600 reais.
+Escreva o valor do atributo saldo na tela.

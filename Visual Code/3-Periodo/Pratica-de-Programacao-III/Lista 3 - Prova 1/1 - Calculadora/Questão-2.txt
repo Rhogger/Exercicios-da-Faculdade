@@ -1,0 +1,1 @@
+Métodos e funções são recursos utilizados em diversas linguagens de programação.  Crie um programa em Java, que execute as operações básicas de uma calculadora: Somar, Subtrair e Dividir, onde cada operação precisa estar definida em um método. O usuário irá entrar com dois números inteiros e posteriormente a operação de cada um deles, deverá ser exibida.

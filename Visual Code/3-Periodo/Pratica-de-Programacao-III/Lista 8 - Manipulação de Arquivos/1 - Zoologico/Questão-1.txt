@@ -1,0 +1,3 @@
+Pesquisar como realizar operações em arquivos: Abrir, fechar, excluir, gravar
+Desenvolver uma solução utilizando um arquivo de exemplo
+Realizar a apresentação da solução

@@ -1,0 +1,5 @@
+1) Forneça a definição para uma estrutura ESTOQUE que contém um array de caracteres nomePecal30], o inteiro numPeca, o preço em ponto flutuante, o inteiro quantidade eo inteiro pedido.
+
+2) Forneça a definição para uma estrutura chamada endereço, que contém os arrays de caracteres rua[25], cidade[20]. estado[2] e cep[8].
+
+3) Forneça a definição para uma estrutura aluno que contém os arrays nome[15] e sobrenome[15] e a variável endResid do tipo struct endereço do exercício 2.

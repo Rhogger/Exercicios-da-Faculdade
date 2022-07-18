@@ -1,0 +1,1 @@
+2) Crie um programa que leia a quantidade de alunos de uma turma, em seguida leia a matricula e a media de cada aluno. Apos realizar a leitura dos dados, apresente na tela a matricula e a nota de cada aluno.

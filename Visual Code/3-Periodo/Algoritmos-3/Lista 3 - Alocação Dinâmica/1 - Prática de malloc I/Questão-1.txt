@@ -1,0 +1,1 @@
+1) Crie um algoritmo em que leia o nome de um aluno e a quantidade de avaliações que ese aluno realizou em todo o semestre. Em seguida, leia as notas do aluno, calcule a média e mostre na tela.

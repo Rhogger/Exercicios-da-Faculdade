@@ -1,0 +1,1 @@
+Criar um diagrama de caso de uso tendo como base o sistema descrito no exercício da aula anterior (supermercado)

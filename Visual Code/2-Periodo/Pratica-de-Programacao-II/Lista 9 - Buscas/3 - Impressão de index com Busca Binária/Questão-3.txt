@@ -1,0 +1,10 @@
+3. Faça um programa que use o método de busca binária para encontrar e imprimir a posição de um determinado elemento no vetor. Se o elemento não existir, seu programa deve imprimir o valor -1.
+
+a) Digite a quantidade de elementos do vetor: 5
+b) Digite os elementos do vetor: 1 2 3 4 5
+c) Digite o elemento procurado: 3
+d) Posição do elemento procurado: 2
+e) Digite a quantidade de elementos do vetor: 5
+f) Digite os elementos do vetor: 4 8 7 2 1
+g) Digite o elemento procurado: 3
+h) Posição do elemento procurado: -1

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Pratica-Abstração-Herança-Polimorfismo&apos; to &apos;Animal-Pratica-Abstração-Herança-Polimorfismo&apos;" description="Rename resource &apos;Pratica-Abstração-Herança-Polimorfismo&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Pratica-Abstração-Herança-Polimorfismo" name="Animal-Pratica-Abstração-Herança-Polimorfismo" stamp="1650929993518" updateReferences="true"/>
+</session>

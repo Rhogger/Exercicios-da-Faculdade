@@ -1,0 +1,1 @@
+Faça uma função recursiva que imprima os 30 primeiros termos da série Fibonacci. A Sequência de Fibonacci tem como primeiros termos os números 0 e 1 e, a seguir, cada termo subsequente é obtido pela soma dos dois termos predecessores

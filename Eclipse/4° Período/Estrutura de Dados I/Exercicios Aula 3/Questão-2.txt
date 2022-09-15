@@ -1,0 +1,1 @@
+2 - Faça uma concatenação entre Strings.

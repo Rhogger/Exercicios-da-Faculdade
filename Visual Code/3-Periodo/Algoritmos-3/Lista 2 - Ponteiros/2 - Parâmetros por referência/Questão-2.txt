@@ -1,0 +1,1 @@
+2) Escreva uma função chamada troca que troca os valores dos parámetros recebidos. Sua assinatura deve ser. void troca(float "a, float "b);

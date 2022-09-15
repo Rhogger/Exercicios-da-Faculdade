@@ -1,0 +1,1 @@
+1. Criar um vetor A com 9 elementos inteiros e depois escrever os elementos do vetor A na ordem invertida em que foram armazenados.

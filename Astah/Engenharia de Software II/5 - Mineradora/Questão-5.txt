@@ -1,0 +1,1 @@
+Leia a descrição de sistema em anexo. Crie um diagrama de caso de uso que modele o sistema descrito. Não esqueça de listar todos os atores e dividir o sistema em módulos.

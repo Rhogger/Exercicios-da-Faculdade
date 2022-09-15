@@ -1,0 +1,1 @@
+5) Leia um vetor N[20]. Troque o 1º elemento com o último, o 2º elemento com o penúltimo, sucessivamente até trocar o 10º com o 11º. Mostre o vetor modificado. Obs.: Os valores devem ficar no vetor e não somente impressos na tela.

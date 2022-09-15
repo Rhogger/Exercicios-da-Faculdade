@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.C": "c",
+    "premios.h": "c",
+    "jogadores.h": "c",
+    "cartela.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
+}

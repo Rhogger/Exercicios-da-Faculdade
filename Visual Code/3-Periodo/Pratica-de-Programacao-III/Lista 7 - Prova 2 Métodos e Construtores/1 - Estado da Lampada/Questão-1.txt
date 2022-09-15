@@ -1,0 +1,21 @@
+1 -  Na classe Lampada faça:  
+
+a)  Crie um construtor para a classe Lampada que receba por parâmetro um valor do tipo boolean referente ao estado da lâmpada. Atribua o valor passado por parâmetro ao atributo acesa. 
+
+b) Crie um outro construtor para a classe Lampada que receba por parâmetro um valor do tipo boolean referente ao estado da lâmpada e um valor int referente à potência da lâmpada. Atribua o valores passado por parâmetro ao atributo acesa e potencia respectivamente. 
+
+c) Crie uma nova classe TestarLampada para testar  a classe criada. Nessa classe, crie um método main que realize as seguintes  operações:
+
+1 - Crie um objeto do tipo Lampada com o nome lampadaLab1, utilizando o  construtor criado na questão
+ a. 
+
+2 - Passe por parâmetro o valor true. 
+
+3 - Crie um outro objeto do tipo Lampada com o nome lampadaLab2, utilizando  o construtor criado na questao b. 
+
+4 - Passe por parâmetro o valor false e o  valor 20.
+
+Chame o método informarSituacao do objeto lampadaLab1
+Chame o método informarPotencia do objeto lampadaLab1
+Chame o método informarSituacao do objeto lampadaLab2
+Chame o método informarPotencia do objeto lampadaLab2

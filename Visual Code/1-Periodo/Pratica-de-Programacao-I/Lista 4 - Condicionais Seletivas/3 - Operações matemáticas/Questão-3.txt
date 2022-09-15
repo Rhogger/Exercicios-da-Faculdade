@@ -1,0 +1,7 @@
+3 - Faça um programa em Java, onde o usuário digite dois números inteiros e a operação desejada:
+1 - Soma
+2 - Subtração
+3 - Multiplicação
+4 - Divisão
+
+Após a escolha da operação, o sistema deverá imprimir o resultado.

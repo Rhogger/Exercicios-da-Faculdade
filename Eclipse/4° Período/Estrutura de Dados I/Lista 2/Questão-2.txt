@@ -1,0 +1,7 @@
+2 - Dada uma matriz quadrada de ordem n > 3, calcular:
+
+a) a soma dos elementos da primeira linha;
+b) a soma dos elementos da terceira coluna;
+c) a soma dos elementos da diagonal principal;
+d) a soma dos elementos da diagonal secundária;
+e) a soma de todos os elementos da matriz.

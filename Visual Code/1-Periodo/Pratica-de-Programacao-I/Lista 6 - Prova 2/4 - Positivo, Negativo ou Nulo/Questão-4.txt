@@ -1,0 +1,2 @@
+
+4 -  Escreva um programa Java que receba um número inteiro e imprima as seguintes saídas: O número digitado é positivo, Ou o número digitado é negativo, Ou o número digitado é zero.

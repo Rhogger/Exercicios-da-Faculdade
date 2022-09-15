@@ -1,0 +1,1 @@
+1 - Crie um programa que exiba a tabuada de um número informado pelo usuário. A operação poderá ser: 1 - Soma e  2 Multiplicação.

@@ -1,0 +1,1 @@
+3. Simule a execução do método selectionsort, conforme o exemplo da imagem para ordenar o vetor L=〈82, 50, 71, 63, 85, 43, 39, 97, 14〉.

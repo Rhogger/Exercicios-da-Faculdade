@@ -1,0 +1,1 @@
+4 - Obtenha o produto entre duas matrizes conformes. Obs. Dadas duas matrizes de tipos possíveis de se efetuar o produto entre elas, por exemplo a matriz A do tipo m por n, e a matriz B do tipo n por p, então obteremos uma outra matriz C do tipo m por p.

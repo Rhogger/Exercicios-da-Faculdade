@@ -1,0 +1,6 @@
+Responda a essa atividade com um arquivo .PDF contendo a descrição do funcionamento do sistema de gestão do supermercado. Lembre-se que o que não constar na descrição não será programado. Então é importante que o sistema seja descrito com o máximo de detalhe possível.
+A descrição deve conter:
+
+QUEM VAI USAR? (Cargo/função de todos os usuários do sistema)
+QUAIS OS MÓDULOS DO SISTEMA (COMO ELE É DIVIDIDO) E QUAIS MÓDULOS ESTÃO CONECTADOS ENTRE SI?
+COMO O SISTEMA VAI FUNCIONAR? O QUE CADA MÓDULO FAZ E QUEM PODE OU NÃO USAR CADA MÓDULO?

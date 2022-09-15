@@ -1,0 +1,5 @@
+1 - Crie um programa que leia a nota de um aluno e mostre se ele está aprovado, em recuperação ou reprovado.
+
+Aprovado (acima de 60), 
+Em recuperação (abaixo de 60) 
+Reprovado por média (abaixo de 20).

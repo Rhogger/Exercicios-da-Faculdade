@@ -1,0 +1,8 @@
+3 - Testes as seguintes expressões e diga os resultados:
+
+"Maria Moura".contains("pedro");
+"Pedro Tintino".startsWith("pedro);
+"Carlos Araujo".endsWith("Araujo");
+"Felipe Alberto Santos".startsWith("Alberto");
+"Felipe Alberto Santos".endsWith("Alberto");
+"Felipe Alberto Santos".contains("Alberto");

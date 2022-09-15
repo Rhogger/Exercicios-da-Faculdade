@@ -1,0 +1,1 @@
+Crie um programa em Java que leia o login e a senha de um usuário. Caso o login seja igual a “LN” e a senha “corporation”, deverá ser exibida a mensagem “Usuário autenticado no sistema”. Caso contrário, deverá ser exibida a mensagem “Falha na autenticação”. Ignore maiúsculas e minúsculas.

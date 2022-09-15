@@ -1,0 +1,87 @@
+QUAIS OS MÓDULOS DO SISTEMA (COMO ELE É DIVIDIDO) E QUAIS MÓDULOS ESTÃO CONECTADOS ENTRE SI?
+
+
+Requisitos:
+
+
+¬Gerencial Administrativo:
+
+Login de Usuário, tendo a escolha de qual empresa / PDV quer administrar;
+
+Automatização dos processos: devido à conexão com o PDV, as informações financeiras, fiscal, de estoque e contábil são atualizadas automaticamente;
+
+Sistema Financeiro: terá controle sobre o faturamento dias/semana/mês/ano de visualização em gráfico/relatórios com prejuízo/lucratividade e custos, contas a pagar e contas a receber, pagamento de impostos e tributos, gerar, alterar ou excluir títulos;
+
+Gerenciador de acessos: liberar acessos para os usuários nas empresas, sistema de login integrado, validade de acesso e senha;
+
+ Sistema de Estoque: emitir uma mensagem de alerta quando chegar a vender mais de X% do estoque de um determinado item e avisando quando o estoque acabar,ter controle sobre quantos produtos vão estar nas prateleiras e no estoque (essas funções podem ser reguladas de acordo com o operador, controle sobre o estoque do almoxarifado, inclusão do estoque via tabela excel;
+
+Sistema Contábil: compra de produtos (reposição de estoque), Processos e logísticas internas, Cotação de Produtos de diversos fornecedores;
+
+Sistema Fiscal: gerar, alterar, excluir, transmitir, cancelar, validar, consultar e imprimir cupons e notas fiscais,CFOP, SPED;
+
+Cadastros: cadastrar itens, clientes, fornecedores, PDVs;
+
+Exportação de dados (Caso o sistema tenha perdido a conexão com a internet);
+
+¬ Ponto de Venda (PDV):
+
+Login de usuário;
+
+Mensagem de alerta ao estoque: através da comunicação com a Retaguarda, o PDV tem acesso as informações do estoque. Ele emite uma mensagem de alerta para a Retaguarda quando chegar a vender mais de X% do estoque de um determinado item e avisando quando o estoque acabar);
+
+Sistema de sangria: o caixa deverá armazenar uma quantia de X R$ para amenizar perda em casos de assaltos;
+
+Sistema de confirmação de compra: para não ter um acúmulo de notas canceladas pós vendas devido ao estorno, o operador de caixa deverá confirmar a venda selecionando ou não quais produtos deseja tirar da venda, somente assim, gerando a nota fiscal;
+
+Sistema de emissão de notas: o PDV terá um gerenciador de NF-e / NFC-e para gerar, transmitir, cancelar consultar, validar e imprimir notas, o sistema precisa estar homologado com Emissor de Cupom Fiscal (ECF), Nota Fiscal de Consumidor Eletrônica (NFC-e) e Software de Autenticação e Transmissão de Cupons Fiscais Eletrônicos (SAT-CF-e);
+
+Sistema de fechamento de caixa e turno: o caixa só poderá ser fechado quando não exceder o valor da sangria e não houver nenhuma nota fiscal pendente;
+
+Integração com formas de pagamentos: As maquininhas terão suporte para cartões de débito e crédito, QR code(PIX) e vale alimentação;
+
+
+Sistema de pagamento: o operador de caixa deverá selecionar o cliente e  forma de pagamento.
+
+Exportação de dados Integrado(Caso o sistema tenha perdido a conexão com a internet, quando voltar essa conexão, ele enviará automaticamente para o Software Gerencial);
+
+
+
+
+
+
+QUEM VAI USAR? (Cargo/função de todos os usuários do sistema)
+
+Usuários:
+
+Operador de caixa: realizar a venda do produto no caixa, confirmar a compra, emitir e gerar e/ou imprimir a nota fiscal e/ou cupom, abrir ou fechar o turno, limitar a sangria;
+
+Operador contábil: faz a cotação dos produtos à venda, compra os produtos dos fornecedores, cadastra fornecedores;
+
+Operador financeiro: Faz os pagamentos dos impostos e tributos, faz o pagamentos das contas: compras realizadas para a reposição de estoque ou novos produtos, luz, água, energia, funcionários, refrigeração, entre outras, faz o faturamento, gerenciar as contas à receber(Títulos) de grandes compradores, faz o cadastro de clientes;
+
+Estoquista: Gerenciar o almoxarifado e estoque, repor os produtos das prateleiras, ìnserir os preços nos produtos das prateleiras de acordo com os que estão no sistema, receber o alerta quando estiver perto de acabar um produto tanto na prateleira quanto no estoque ou almoxarifado, faz cadastro de produtos;
+
+Gerente: faz a exportação de dados quando necessário, gerencia os usuários cadastrados no sistema, podendo liberar acessos e alterar a senha, faz o cadastro de  empresas ou PDV, é permitido a incluir, alterar, visualizar e deletar qualquer tipo de dado;
+
+Administrador Geral: Terá todos acessos dos dois módulos, podendo configurar, alterar, incluir ou excluir qualquer informação editável;
+
+Suporte: Pode fazer tudo que é acessível dentro do sistema e acessar o banco de dados para fazer as alterações se necessário;
+
+
+
+
+COMO O SISTEMA VAI FUNCIONAR? O QUE CADA MÓDULO FAZ E QUEM PODE OU NÃO USAR CADA MÓDULO?
+
+O Sistema contará com 2 Módulos, a Retaguarda que é a parte Gerencial Administrativa e o Ponto de Venda (PDV). Ambos os Módulos deverão ter comunicação entre si, mas o PDV (caso perca a conexão com a internet) só enviará as informações ao fechar o caixa e exportar os dados. 
+
+Terá um sistema de login, onde cada usuário terá seus acessos. Ao logar, o usuário terá opção de escolher entre os módulos: Ponto de Venda (PDV), Gerencial Administrativo (Retaguarda).
+
+A Retaguarda será usada para o setor administrativo. Quem fica no caixa passando as compras usará o Módulo PDV.
+
+
+
+
+
+
+

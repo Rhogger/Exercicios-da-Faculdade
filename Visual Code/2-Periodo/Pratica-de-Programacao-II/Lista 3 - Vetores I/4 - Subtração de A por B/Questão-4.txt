@@ -1,0 +1,1 @@
+4. Criar dois vetores A e B cada um com 10 elementos inteiros. Construir um vetor C com a subtração dos elementos de A e B.

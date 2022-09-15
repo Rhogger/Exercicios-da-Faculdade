@@ -1,0 +1,24 @@
+Crie os diagramas de estados que
+melhor representem os processos descritos a seguir:
+
+
+ 
+
+
+1. Lavar e secar roupas (mais de
+uma)
+
+
+2. Fazer compras em um
+supermercado físico e pagar
+
+
+3. Criar e montar uma lista de reprodução
+com músicas em um aplicativo como o spotify
+
+
+4. Agendar uma consulta médica
+
+
+5. Usar as funções básicas de um site
+de banco.

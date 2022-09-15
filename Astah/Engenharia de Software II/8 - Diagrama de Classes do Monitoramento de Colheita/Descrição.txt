@@ -1,0 +1,18 @@
+Diagrama de Classe
+
+1- Classificação de Classes:
+
+Total: Técnico, VANT, Funcionário, Usuário, Nuvem, Produtor e Propriedade Rural.
+
+Classe PAI: Usuário;
+Classe FILHA: Técnico, Funcionário e Produtor.
+
+
+
+2- Tipos de Relacionamentos: 
+
+Herança: Técnico, Funcionário, Produtor → Usuário;
+
+Dependência: Produtor, Técnico, Funcionário, VANT → Nuvem;
+
+Associação: Técnico → VANT,  Classe PAI → Nuvem,  Produtor → Propriedade Rural; 

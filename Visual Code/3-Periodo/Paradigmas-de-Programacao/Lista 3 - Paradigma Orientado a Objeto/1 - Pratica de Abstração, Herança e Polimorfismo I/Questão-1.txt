@@ -1,0 +1,16 @@
+1- Crie as seguintes classes:
+
+  a. [Abstração]Uma classe chamada “Animal” que terá os atributos:
+    i. Espécie;
+    ii. Movimentação;
+    iii. Caracteristicas.
+
+  b. E os métodos:
+    i. Falar(){ System.out.println(“Som animal”) }
+    ii. Comer(){ System.out.println(“Alimento pro animal”); }
+
+  c. [Herança]Crie 2 classes (Gato e Cachorro), que deverão herdar os atributos e métodos da classe “Animal”.
+
+  d. [Polimorfismo]Sobreescreva(@Override) o método Falar na classe Cachorro para que seja impresso na tela o texto “Au au”;
+
+  e. [Polimorfismo]Sobreescreva(@Override) o método Falar na classe Gato para que seja impresso na tela o texto “Miau”;

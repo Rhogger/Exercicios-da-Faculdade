@@ -1,0 +1,1 @@
+5 - Faça um programa que calcule a tabuada de multiplicação de um número inteiro fornecido pelo usuário.

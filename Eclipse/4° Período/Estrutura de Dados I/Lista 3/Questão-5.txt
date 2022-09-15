@@ -1,0 +1,1 @@
+5- Faça um programa em que o usuário digite uma palavra e o  programa diga quantas letras "A" ela possui.

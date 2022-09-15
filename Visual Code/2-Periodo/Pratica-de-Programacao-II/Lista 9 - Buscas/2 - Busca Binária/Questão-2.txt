@@ -1,0 +1,1 @@
+2. Implemente o código para realizar uma Busca Binária no vetor do exercício 1. (Lembre-se que a premissa para Busca Binária é um conjunto de dados ordenados).

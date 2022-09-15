@@ -1,0 +1,1 @@
+5. Obtenha e imprima um vetor que seja a soma dos elementos de cada coluna de uma matriz numérica qualquer dada.

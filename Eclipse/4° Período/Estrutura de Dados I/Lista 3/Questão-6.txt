@@ -1,0 +1,1 @@
+6- Crie um programa em que o usuário digite 5 palavras. Depois ele poderá digitar outra palavra e o programa informa se ela já existe entre as 5 digitadas.

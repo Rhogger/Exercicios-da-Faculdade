@@ -1,0 +1,1 @@
+2) Mostrar os valores de 10 até 1, em ordem regressiva.

@@ -1,0 +1,1 @@
+2. Faça um programa que escreva a frase invertida (da última palavra para a primeira) – Use List para fazer a inversão.

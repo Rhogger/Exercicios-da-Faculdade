@@ -1,0 +1,1 @@
+10 - Crie um programa que leia um vetor vet contendo 18 elementos. A seguir, o programa deverá distribuir esses elementos em uma matriz 3 × 6 e, no final mostrar a matriz gerada.

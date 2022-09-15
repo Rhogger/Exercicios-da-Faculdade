@@ -1,0 +1,1 @@
+4 - Com base no exercício anterior, apresente uma mensagem no final de cada laço de repetição, mostrando para o usuário, se o aluno foi reprovado (Média menor que 60) ou aprovado (Maior ou igual à 60)

@@ -1,0 +1,1 @@
+1. Implemente a Busca Sequencial no vetor abaixo, lendo o elemento buscado pelo usuário.

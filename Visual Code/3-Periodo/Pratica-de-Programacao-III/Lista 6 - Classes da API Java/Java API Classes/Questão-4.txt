@@ -1,0 +1,1 @@
+Criar um algoritmo que, dado o nome de uma pessoa (Nome + Sobrenome), escreva apenas o sobrenome. Ex: “Eliene Ribeiro” , escreve somente “Ribeiro”

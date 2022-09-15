@@ -1,0 +1,23 @@
+package exercicio2;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		Funcionario funcionario = new Funcionario();
+		
+		System.out.print("Insira o nome do funcionário: ");
+		funcionario.setName(input.nextLine());
+		
+		System.out.print("\nInsira o sobrenome do funcionario: ");
+		funcionario.setSurname(input.nextLine());
+		
+		System.out.printf("\nQuantas horas diárias o/a %s trabalha? ",funcionario.fullName());
+
+	}
+
+}

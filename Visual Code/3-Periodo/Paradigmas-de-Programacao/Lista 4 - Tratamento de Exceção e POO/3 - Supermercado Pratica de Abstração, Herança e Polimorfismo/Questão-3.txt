@@ -1,0 +1,1 @@
+Utilize o exercicios feito na sala de aula (Supermercado) e adiciona uma nova classe TipoVenda e implemente atributos e métodos ( por exemplo, se a compra será em dinheiro ou cartao, se será à vista ou parcelo, etc...)

@@ -1,0 +1,4 @@
+2 - Sabendo que a área do triângulo é dada pela fórmula: A = b * h / 2
+b é equivalente a base, h é equivalente a altura
+
+Crie um programa que calcule a área de um triângulo. O valor da base e da altura estão armazenados nas variáveis base e altura. Você pode informar qualquer valor inteiro para as variáveis.

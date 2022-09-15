@@ -1,0 +1,16 @@
+Crie uma classe Funcionário que obedeça à descrição abaixo:
+A classe possui os atributos nome, sobrenome, horasTrabalhadas e valorPorHora.
+O método nomeCompleto deve retornar o atributo nome concatenado ao atributo sobrenome
+O método calcularSalario faz o cálculo de quanto o funcionário irá receber no mês, multiplicando o atributo horasTrabalhadas pelo atributo valorPorHora e retornar esse valor.
+O método de incrementarHoras adiciona um valor passado por parâmetro ao valor já existente no atributo valorPorHora.
+
+Crie o método main e instancie a
+classe Funcionario criada, criando um objeto  novoFuncionario do tipo Funcionario
+Atribua o valor “Luis” ao atributo nome
+Atribua o valor “Silva” ao atributo sobrenome
+Atribua o valor 10 ao atributo horasTrabalhadas
+Atribua o valor 25.50 ao atributo valorPorHora
+Escreva o nome completo do funcionário na tela, utilizando o  retorno do método nomeCompleto
+Escreva o valor do salario que o funcionario ira receber,  utilizando o retorno do método calcularSalario
+Adicione 8 ao atributo horasTrabalhadas utilizando o  método incrementarHoras
+Escreva o salario do funcionário (retorno do método calcularSalario)

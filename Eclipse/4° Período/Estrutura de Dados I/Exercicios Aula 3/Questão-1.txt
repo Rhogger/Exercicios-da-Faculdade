@@ -1,0 +1,1 @@
+1 - Crie um programa em que o usuário digite uma palavra e o programa informe quantos caracteres foram digitados.

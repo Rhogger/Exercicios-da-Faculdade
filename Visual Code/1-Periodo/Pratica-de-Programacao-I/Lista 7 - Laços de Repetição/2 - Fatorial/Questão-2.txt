@@ -1,0 +1,1 @@
+2 - Crie um programa em Java, que calcule o fatorial de um determinado número inteiro passado pelo usuário.

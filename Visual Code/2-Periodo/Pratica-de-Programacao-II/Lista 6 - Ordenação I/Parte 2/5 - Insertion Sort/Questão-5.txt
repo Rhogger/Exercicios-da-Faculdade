@@ -1,0 +1,1 @@
+5. Simule a execução do método insertionsort, preenchendo uma tabela como aquela apresentada na imagem, para ordenar a sequência 〈82, 50, 71, 63, 85, 43, 39, 97, 14〉.

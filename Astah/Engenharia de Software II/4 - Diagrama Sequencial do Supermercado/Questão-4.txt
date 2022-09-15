@@ -1,0 +1,1 @@
+Utilizando o sistema de gestão de supermercado dos exercícios anteriores, crie o diagrama de sequência que represente o processo de venda de mercadorias. Considere  que uma compra é composta por mais de um item (que vão sendo somados na nota fiscal) e vai ser paga com cartão de crédito ou dinheiro (lifelines: caixa, interface, nota fiscal, estoque, banco, financeira)

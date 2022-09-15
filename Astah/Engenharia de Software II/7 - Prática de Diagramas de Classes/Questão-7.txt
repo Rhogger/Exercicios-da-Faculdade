@@ -1,0 +1,39 @@
+1. Enumere as possíveis características (atributos) e
+comportamentos (métodos) dos objetos a seguir:
+
+
+ 
+
+
+a) Vaca
+
+
+b) Computador
+
+c) Música
+
+
+d) arquivo de texto
+
+
+e) móvel
+
+
+f) casa
+
+
+ 
+
+
+2. Considerando o conceito de herança, elabore uma possível
+árvore de herança de modo que cada uma das classes abaixo se origine de uma
+mesma superclasse (enumere também as características e comportamentos de cada classe)
+
+
+ 
+
+
+a) PEIXE, GATO, COBRA, MOSQUITO, PÁSSARO
+
+
+b) CASA, FAZENDA, APARTAMENTO, BARRACO

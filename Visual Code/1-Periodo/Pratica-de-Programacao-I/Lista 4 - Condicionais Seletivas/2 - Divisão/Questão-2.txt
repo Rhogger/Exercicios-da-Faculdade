@@ -1,0 +1,3 @@
+2 - Faça um algoritmo que leia dois números e faça a divisão do primeiro número pelo segundo e escreva o resultado obtido. 
+
+Lembre-se que não existe divisão por zero, logo, é necessário verificar o segundo número digitado.

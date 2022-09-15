@@ -1,0 +1,1 @@
+m desenvolvimento de Software, recursividade representa a chamada de um método/função dentro dela mesmo. Implemente um programa em Java, que realize o cálculo da potencialização de um determinado número, por exemplo: Base 5,  Expoente 5: 5x5x5x5x5 = 3125

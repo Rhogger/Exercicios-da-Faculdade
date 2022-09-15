@@ -1,0 +1,215 @@
+Diagrama de Caso de Uso
+
+1 – Identificar e nomear quantos e quais são os atores
+
+4 Atores no total: Técnico, Funcionário, Produtor e VANT.
+
+
+2 – Identificar quais as ações de cada ator no sistema
+
+Técnico: 
+Acessa o mapa da lavoura
+Traça a rota do  VANT;
+Envia o VANT para fazer a rota após traçá-la;
+Recebe uma  mensagem de confirmação de informações da nuvem;
+Recebe mensagem de erro.
+
+
+Funcionário: 
+Cadastrar produtores rurais;
+Cadastra novos VANTs;
+Agenda visitas  a produtores;
+Atribui um técnico a visita 
+Pode alocar um ou mais VANTs para o dia da visita.
+
+
+Produtor: 
+Verificar o status do seu  pagamento, as visitas agendadas e as propriedades cadastradas em um site por meio de login e  senha.
+Recebe email do LOG da visita.
+
+
+VANT:
+Envia uma  mensagem de confirmação de informações para a nuvem;
+Após o término da rota, retorna à  posição inicial e a aplicação é finalizada;
+Detecta se a bateria ou herbicida está prestes a acabar;
+Recebe os dados da trajetória.
+
+
+3 – Identificar ações repetidas. Isso pode indicar generalização. Exemplo: Cliente faz login e
+Gerente faz login, logo a ação “fazer login” pode ser generalizada (pode ser criado um ator
+único que acessa a ação “fazer login” e dele podem ser derivados outros usando a notação
+adequada)
+
+Conecta ao banco de dados.
+
+
+4 – Identificar se é possível agrupar os casos de uso em módulos (retângulos)
+
+Sim, em Sistemas pelo Tablet, Site, Aplicação Desktop e Nuvem.
+
+
+
+
+
+
+Diagrama de Sequência
+
+Funcionário
+
+1 - Separar e ordenar as posições dos acontecimentos/ ações.
+
+1° Acessa o Sistema;
+2° Conecta ao banco (Nuvem);
+3° Valida Conexão;
+
+IF (Conexao_Estabelecida = S) {
+
+    SWITCH (Opcao){ 
+        CASE (Opcao = Cadastrar_Produtor) {
+
+4° Inserir as informações que são requisitadas; 
+//Nome, RG, CNPJ, e-mail, login, senha, data de nascimento, número da  agência e conta, nome do banco, e data de vencimento da mensalidade de uso do serviço
+
+5° As informações são mandados para o banco;
+6° Validam as informações no banco;
+
+WHILE  (Cadastro_Existente = S) {
+
+7° Retorna mensagem para tela que o  produtor ou RG, CPF, EMAIL ou N° da Conta já está cadastrado;
+
+8° Insere as informações novamente para o cadastro;
+9° Valida as informações; (Cadastro_Existente)
+
+}
+10° Retorna mensagem de produtor cadastrado;
+}/
+
+        CASE (Opcao = Cadastrar_VANT) {
+
+11° Inserir as informações que são requisitadas;
+//Número de registro único, uma duração de bateria em minutos, uma capacidade em litros de seu tanque de  transporte de herbicida e um tipo diferente de aplicador de herbicida
+
+12° As informações são mandados para o banco;
+13° Validam as informações no banco;
+
+WHILE  (Cadastro_Existente = S) {
+
+14° Retorna mensagem para tela que o  N° de registro já está cadastrado;
+15° Insere as informações novamente para o cadastro;
+16° Valida as informações; (Cadastro_Existente)
+
+}
+
+17° Retorna mensagem de VANT cadastrado;
+
+}
+
+CASE (Opcao = Agendar_Visita) {
+
+18° Seleciona o Técnico para visitar;
+19° Seleciona a quantidade de VANTs que será utilizado na visita;
+20° As informações são mandados para o banco;
+21° Validam as informações no banco;
+22° Retorna mensagem de visita agendada.
+23° Manda mensagem pelo sistema para o Técnico avisando ele;
+24° Manda mensagem pelo sistema para o Produtor lembrando sobre a visita.
+}
+}
+}
+
+
+2- Escreva quantas e quais são as LifeLines do Diagrama:
+
+São 5, sendo elas:
+1° Funcionário;
+2° Interface Gráfica;
+3° Nuvem;
+4° Técnico;
+5° Produtor.
+
+Produtor
+
+
+1 - Separar e ordenar as posições dos acontecimentos/ ações.
+
+
+1° Acessar o site;
+2° Realizar Login;
+3° Selecionar Ação;
+
+SWITCH{ 
+CASE (Opcao = Cadastrar_Propriedade){
+
+4° Clicar em Cadastro de Propriedade Rural;
+5° Preencher os dados requisitados;
+// Uma propriedade  tem localização (latitude e longitude), nome, telefone e um mapa das lavouras que vão receber  os VANTs.
+6° Enviar dados para o Banco;
+7° Validar os dados;
+
+WHILE (Latitude e Longitude, Nome ou Telefone = Cadastro_Existente ){
+
+8° Preencher os dados novamente;
+9° Enviar para o Banco;
+10° Validar os dados; 
+
+}
+
+11° Retornar mensagem de Propriedade Cadastrada;
+12° Registrar tudo no LOG;
+
+}
+
+CASE (Opcao = Verificar_Prorpriedade){
+
+13° Clicar em Verificar Propriedades Rurais;
+14° Apresentar em tela as Propriedades Rurais;
+15° Escolher uma Propriedade;
+16° Apresentar em tela as informações da Propriedade escolhida;
+// Uma propriedade  tem localização (latitude e longitude), nome, telefone e um mapa das lavouras que vão receber  os VANTs.
+
+17° Registrar tudo no LOG;
+}
+
+CASE (Opcao = Verificar_Visita){
+
+18° Clicar em Verificar Visitas Agendadas;
+19° Apresentar em tela as Visitas Agendadas;
+20° Escolher a Visita desejada;
+21° Apresentar em tela as informações da Visita;
+// Uma Visita  tem o nome do Técnico que irá estar presente no dia, o nome de quem agendou a visita, a data e a hora da visita e quantos VANTs serão disponibilizados neste dia.
+
+22° Registrar tudo no LOG;
+}
+
+CASE (Opcao = Verificar_Status_Pgt){
+
+23° Clicar em Verificar Status de Pagamento;
+24° Apresentar em tela as faturas que já foram pagas, atrasadas e as futuras;
+20° Escolher a Fatura desejada;
+21° Apresentar em tela as informações da fatura;
+
+IF (Fatura = Atrasada ou Futura){
+
+22° Selecionar forma de pagamento (Boleto ou Cartão de Crédito);
+23° Efetuar pagamento;
+
+}
+24° Registrar tudo no LOG;
+}
+
+CASE (Opcao = Finalizar_Sessao){
+
+25° Clicar em Finalizar Sessão;
+26° Gerar arquivo LOG;
+27° Enviar por email o LOG da sessão para o Produtor;
+}
+}
+
+
+
+2- Escreva quantas e quais são as LifeLines do Diagrama:
+ 
+São 3:
+1° Produtor
+2° Banco
+3° Navegador

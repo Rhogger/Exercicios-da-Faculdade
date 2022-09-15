@@ -1,0 +1,1 @@
+5 - Gerar um vetor A com 10 elementos inteiros e iguais a 0 ou 1. Determine o percentual de números iguais 0 e percentual de números iguais a 1.

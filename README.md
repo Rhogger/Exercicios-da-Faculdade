@@ -24,12 +24,16 @@ As seguintes disciplinas terão seus arquivos separadamente:
 
 <br>
 
+<hr>
+
 <h3>
 1° Período
 </h3>
 
 - Prática de Programação I
 - Algoritmos I
+
+<hr>
 
 <h3>
 2° Período
@@ -38,6 +42,8 @@ As seguintes disciplinas terão seus arquivos separadamente:
 - Prática de Programação II
 - Algoritmos II
 - Engenharia de Software II
+
+<hr>
 
 <h3>
 3° Período
@@ -51,6 +57,7 @@ As seguintes disciplinas terão seus arquivos separadamente:
 
 <hr>
 
+<h3>
 4° Período
 </h3>
 

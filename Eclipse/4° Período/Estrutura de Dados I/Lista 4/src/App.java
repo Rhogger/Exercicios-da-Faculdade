@@ -70,14 +70,26 @@ public class App {
 				}
 
 			} while (collor.equals("") == false);
+			
+			for (int i = 0; i < collors.size(); i++) {
+				System.out.printf("Cor %d : %s", i + 1, collors.get(i));
+				System.out.println();
+			}
+
+			System.out.println();
 
 			if (collors.size() > 0) {
 				collors.add(0, "Gianguia");
+				collors.add(0, "Gianguiaaaa");
+			}
+			
+			for (int i = 0; i < collors.size(); i++) {
+				System.out.printf("Cor %d : %s", i + 1, collors.get(i));
+				System.out.println();
 			}
 
-			if (collors.size() > 2) {
-				collors.remove(2);
-			}
+			System.out.println();
+
 
 			Collections.sort(collors);
 

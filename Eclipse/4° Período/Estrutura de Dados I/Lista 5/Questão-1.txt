@@ -1,0 +1,11 @@
+1. Escreva um programa em Java que crie um LinkedList adicione alguns elementos e os imprima na tela.
+
+a. percorra todos os elementos da LinkedList;
+b. adicione um elemento na primeira posição da lista;
+c. adicione um elemento na última posição da lista;
+d. remova o terceiro elemento da lista;
+e. remova o primeiro elemento da lista;
+f. remova o último elemento da lista;
+g. ordene a LinkedList;
+h. imprima a LinkedList;
+i. esvazia a LinkedList.

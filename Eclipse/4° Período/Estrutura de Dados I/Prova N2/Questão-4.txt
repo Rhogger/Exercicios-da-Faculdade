@@ -1,0 +1,4 @@
+4 - Usando uma estrutura de dados Fila, crie uma fila de documentos que precisem ser impressos. Cada documento é composto de um nome e quantidade de folhas a serem impressas. O programa deve:
+
+a) Enfileirar o documento, adicionar os documentos na fila;
+b) E seguindo a ordem, o programa deve “imprimir” cada documento, desenfileirando a fila.

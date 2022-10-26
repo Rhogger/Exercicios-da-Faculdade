@@ -1,8 +1,8 @@
 public class Contact {
 
-	String name;
-	String address;
-	String number;
+	private String name;
+	private String address;
+	private String number;
 
 	public void setName(String name) {
 		this.name = name;

@@ -1,0 +1,7 @@
+5 - Crie um programa que faça as seguintes operações em uma fila:
+
+a) Inserir o paciente na fila de espera;
+b) Chamar o paciente para ser atendido;
+c) Verificar se a fila está cheia ou vazia;
+d) Verificar o próximo paciente a ser atendido;
+e) Informar quantos pacientes existem na fila de espera

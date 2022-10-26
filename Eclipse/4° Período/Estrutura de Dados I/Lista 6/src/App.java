@@ -21,11 +21,11 @@ public class App {
 			contato.setName(input.nextLine());
 			System.out.println();
 
-			System.out.print("EndereÃ§o: ");
+			System.out.print("Endereço: ");
 			contato.setAddress(input.nextLine());
 			System.out.println();
 
-			System.out.print("NÃºmero de Celular: ");
+			System.out.print("Número de Celular: ");
 			contato.setNumber(input.nextLine());
 			System.out.println();
 

@@ -1,0 +1,5 @@
+1 - Implemente uma lista duplamente encadeada e faça as seguintes operações:
+
+a) Calcule o número de nós;
+b) Retorne a quantidade de nós que tem o valor maior que n;
+c) Remova da lista todas as ocorrências m(defina um valor) e logo após imprima a lista com os valores restantes.

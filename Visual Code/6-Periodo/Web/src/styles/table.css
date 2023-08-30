@@ -1,0 +1,48 @@
+#schedule table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+#schedule table>tbody tr:nth-child(even) {
+  background-color: #d9dfd82c;
+}
+
+#schedule table tr {
+  border: 1px solid #FFF;
+}
+
+#schedule table th {
+  font-size: 20rem;
+  color: #FFF;
+  text-align: center;
+}
+
+.title-table {
+  padding: 8rem 0;
+}
+
+.title-table:nth-child(2) {
+  border: 1px solid #FFF;
+}
+
+.time-event,
+.speaker-event {
+  text-align: center;
+}
+
+.time-event {
+  border: 1px solid #FFF;
+
+  width: 112rem;
+}
+
+.speaker-event {
+  width: 150rem;
+}
+
+#schedule table td {
+  font-size: 16rem;
+  color: #FFFFFFC2;
+
+  padding: 8rem;
+}

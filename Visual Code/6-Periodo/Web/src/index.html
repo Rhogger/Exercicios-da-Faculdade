@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="./styles/header/header.css">
   <link rel="stylesheet" href="styles/header/navbar.css">
   <link rel="stylesheet" href="styles/sections.css">
+  <link rel="stylesheet" href="styles/table.css">
+  <link rel="stylesheet" href="styles/form.css">
 </head>
 
 
@@ -41,164 +43,190 @@
 
   <main>
     <section id="description">
-      <h2>Descrição</h2>
+      <div>
+        <h2>Descrição</h2>
 
-      <div id="history">
-        <p>No ano de 2023, os ursos polares do Brasil e de Angola estavam em perigo de extinção devido ao aquecimento
-          global. Os pinguins, que eram uma das principais ameaças aos ursos, estavam se tornando cada vez mais
-          numerosos.
-        </p>
+        <div id="history">
+          <p>No ano de 2023, os ursos polares do Brasil e de Angola estavam em perigo de extinção devido ao aquecimento
+            global. Os pinguins, que eram uma das principais ameaças aos ursos, estavam se tornando cada vez mais
+            numerosos.
+          </p>
 
-        <p>
-          Os ursos polares, liderados por um grande macho chamado Olaf, decidiram se unir para enfrentar os pinguins.
-          Eles
-          organizaram um ataque surpresa à colônia de pinguins mais próxima.
-        </p>
+          <p>
+            Os ursos polares, liderados por um grande macho chamado Olaf, decidiram se unir para enfrentar os pinguins.
+            Eles
+            organizaram um ataque surpresa à colônia de pinguins mais próxima.
+          </p>
 
-        <p>
-          Os pinguins, que estavam despreparados para o ataque, foram facilmente derrotados. Os ursos polares mataram
-          milhares de pinguins em poucas horas.
-        </p>
+          <p>
+            Os pinguins, que estavam despreparados para o ataque, foram facilmente derrotados. Os ursos polares mataram
+            milhares de pinguins em poucas horas.
+          </p>
 
-        <p>
-          A vitória dos ursos polares foi um marco importante na luta pela sobrevivência da espécie. Os pinguins foram
-          forçados a recuar e os ursos polares ganharam um respiro na luta pela sobrevivência.
-        </p>
+          <p>
+            A vitória dos ursos polares foi um marco importante na luta pela sobrevivência da espécie. Os pinguins foram
+            forçados a recuar e os ursos polares ganharam um respiro na luta pela sobrevivência.
+          </p>
 
-        <p>
-          No entanto, o conflito entre as duas espécies ainda não está resolvido. Os pinguins ainda são uma ameaça aos
-          ursos polares, e o futuro da espécie ainda é incerto.</p>
+          <p>
+            No entanto, o conflito entre as duas espécies ainda não está resolvido. Os pinguins ainda são uma ameaça aos
+            ursos polares, e o futuro da espécie ainda é incerto.</p>
+        </div>
       </div>
     </section>
 
     <section id="speakers">
-      <h2>Palestrantes</h2>
+      <div>
+        <h2>Palestrantes</h2>
 
-      <div id="speakers-group">
-        <article>
-          <img src="../assets/images/Urso-Polar-da-Silva.webp" alt="Selfie de um urso polar">
+        <div id="speakers-group">
+          <article>
+            <img src="../assets/images/Urso-Polar-da-Silva.webp" alt="Selfie de um urso polar">
 
-          <h3>Urso-Polar da Silva</h3>
-          <p>Líder da Ordem dos Ursos-Polares, abordará sobre como funcionará o PLANO.</p>
-        </article>
+            <div class="info-speaker">
+              <h3>Urso-Polar da Silva</h3>
+              <p>Líder da Ordem dos Ursos-Polares, abordará sobre como funcionará o PLANO.</p>
+            </div>
+          </article>
 
-        <article>
-          <img src="../assets/images/Urso-do-Crash.webp" alt="Urso Polar do Crash Bandicoot">
+          <article>
+            <img src="../assets/images/Urso-do-Crash.webp" alt="Urso Polar do Crash Bandicoot">
 
-          <h3>Urso do Crash</h3>
-          <p>É apenas o urso do crash, ele não sabe falar, porque ele nao existe.</p>
-        </article>
+            <div class="info-speaker">
+              <h3>Urso do Crash</h3>
+              <p>É apenas o urso do crash, ele não sabe falar, porque ele nao existe.</p>
+            </div>
+          </article>
 
-        <article>
-          <img src="../assets/images/Irmoes.webp" alt="Ursos um atrás do outro">
+          <article>
+            <img src="../assets/images/Irmoes.webp" alt="Ursos um atrás do outro">
 
-          <h3>Irmões</h3>
-          <p>Just Ursos siameses, tem duas cabeças, mas ele é apenas um urso e não sabe falar.</p>
-        </article>
+            <div class="info-speaker">
+              <h3>Irmões</h3>
+              <p>Just Ursos siameses, tem duas cabeças, mas ele é apenas um urso e não sabe falar.</p>
+            </div>
+          </article>
 
-        <article>
-          <img src="../assets/images/Urso-polar-mine.webp" alt="Ursos polar do minecraft">
+          <article>
+            <img src="../assets/images/Urso-polar-mine.webp" alt="Ursos polar do minecraft">
 
-          <h3>Urso quadrático</h3>
-          <p>...</p>
-        </article>
+            <div class="info-speaker">
+              <h3>Urso quadrático</h3>
+              <p>...</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="programacao">
-      <h2>Programação</h2>
+    <section id="schedule">
+      <div>
+        <h2>Programação</h2>
 
-      <table>
-        <tr>
-          <th>Tópico</th>
-          <th>Horário</th>
-          <th>Palestrante</th>
-        </tr>
+        <table>
+          <tr>
+            <th class="title-table">Tópico</th>
+            <th class="title-table">Horário</th>
+            <th class="title-table">Palestrante</th>
+          </tr>
 
-        <tr>
-          <td>Abertura do evento</td>
-          <td>20:00 - 20:50</td>
-          <td>Urso-Polar da Silva</td>
-        </tr>
+          <tr>
+            <td class="about-event">Abertura do evento</td>
+            <td class="time-event">20:00 - 20:50</td>
+            <td class="speaker-event">Urso-Polar da Silva</td>
+          </tr>
 
-        <tr>
-          <td>Como os penguins podem dominar o mundo?</td>
-          <td>21:00 - 22:00</td>
-          <td>Urso do Crash</td>
-        </tr>
+          <tr>
+            <td class="about-event">Como os penguins podem dominar o mundo?</td>
+            <td class="time-event">21:00 - 22:00</td>
+            <td class="speaker-event">Urso do Crash</td>
+          </tr>
 
-        <tr>
-          <td>Clonagem de ursos para formarmos um exercito</td>
-          <td>22:05 - 23:55</td>
-          <td>Irmões</td>
-        </tr>
+          <tr>
+            <td class="about-event">Clonagem de ursos para formarmos um exercito</td>
+            <td class="time-event">22:05 - 23:55</td>
+            <td class="speaker-event">Irmões</td>
+          </tr>
 
-        <tr>
-          <td>Finalização do evento</td>
-          <td>23:00 - 23:30</td>
-          <td>Urso-Polar da Silva</td>
-        </tr>
-      </table>
+          <tr>
+            <td class="about-event">Finalização do evento</td>
+            <td class="time-event">23:00 - 23:30</td>
+            <td class="speaker-event">Urso-Polar da Silva</td>
+          </tr>
+        </table>
+      </div>
     </section>
-
-    <aside>
-      Polo Norte africano, Africa do Sul, Av. Paulista N°007
-      <br>
-      Preço: R$0,00 para Ursos Polares e Mulheres, Homens pagam R$10.
-      <br>
-      Patrocinadores: Cerberus Unirv, Aguia Tecnologia e Freitas Empreitas.
-    </aside>
 
     <section id="inscricao">
-      <h2>Inscrição</h2>
+      <div>
+        <h2>Inscrição</h2>
 
-      <form>
-        <fieldset>
-          <legend>Informações Pessoais</legend>
+        <form>
+          <fieldset>
+            <legend>Informações Pessoais</legend>
 
-          <label for="nome">Nome completo</label>
-          <input type="text" id="nome">
+            <div class="input-wrapper">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome">
+            </div>
 
-          <label for="email">E-mail</label>
-          <input type="email" id="email">
+            <div class="input-wrapper">
+              <label for="email">E-mail</label>
+              <input type="email" id="email">
+            </div>
 
-          <label for="ingresso">Tipo do ingresso</label>
-          <select id="ingresso">
-            <option value="1">Estudante</option>
-            <option value="2">Profissional</option>
-            <option value="3">VIP</option>
-          </select>
+            <div class="select-wrapper">
+              <label for="ingresso">Tipo do ingresso</label>
+              <select id="ingresso">
+                <option value="1">Estudante</option>
+                <option value="2">Profissional</option>
+                <option value="3">VIP</option>
+              </select>
+            </div>
 
-          <label for="observacao">Observações</label>
-          <textarea id="observacao"></textarea>
-        </fieldset>
+            <div class="textarea-wrapper">
+              <label for="observacao">Observações</label>
+              <textarea id="observacao"></textarea>
+            </div>
+          </fieldset>
 
-        <fieldset>
-          <legend>Sobre o evento</legend>
+          <fieldset>
+            <legend>Sobre o evento</legend>
 
-          <label>Como ficou sabendo do evento?</label>
-          <div class="conhecimento-evento">
-            <input type="radio" id="a" name="conhecimento-evento">
-            <label for="a">Redes sociais</label>
-          </div>
-          <div class="conhecimento-evento">
-            <input type="radio" id="b" name="conhecimento-evento">
-            <label for="b">Email</label>
-          </div>
-          <div class="conhecimento-evento">
-            <input type="radio" id="c" name="conhecimento-evento">
-            <label for="c">Indicação</label>
-          </div>
+            <label>Como ficou sabendo do evento?</label>
+            <div class="input-wrapper select">
+              <input type="radio" id="a" name="conhecimento-evento">
+              <label for="a">Redes sociais</label>
+            </div>
+            <div class="input-wrapper select">
+              <input type="radio" id="b" name="conhecimento-evento">
+              <label for="b">Email</label>
+            </div>
+            <div class="input-wrapper select">
+              <input type="radio" id="c" name="conhecimento-evento">
+              <label for="c">Indicação</label>
+            </div>
 
-          <input type="checkbox" id="atualizacoes">
-          <label for="atualizacoes">Deseja receber atualizações por email
-            sobre futuros eventos?</label>
+            <div class="select">
+              <input type="checkbox" id="atualizacoes">
+              <label for="atualizacoes">Deseja receber atualizações por email
+                sobre futuros eventos?</label>
+            </div>
 
-          <button type="submit">Enviar</button>
-        </fieldset>
-      </form>
+            <button type="submit">Enviar</button>
+          </fieldset>
+        </form>
+      </div>
     </section>
   </main>
+
+  <aside>
+    Polo Norte africano, Africa do Sul, Av. Paulista N°007
+    <br>
+    Preço: R$0,00 para Ursos Polares e Mulheres, Homens pagam R$10.
+    <br>
+    Patrocinadores: Cerberus Unirv, Aguia Tecnologia e Freitas Empreitas.
+  </aside>
 
   <footer>
     <p>Organizado pela própria Ordem dos Ursos-Polares</p>

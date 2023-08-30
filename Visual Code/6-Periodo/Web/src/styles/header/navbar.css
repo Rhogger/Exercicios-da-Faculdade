@@ -1,0 +1,23 @@
+nav {
+  background-color: #5c5b5b;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16rem;
+
+  padding: 15rem 40rem;
+}
+
+
+nav a {
+  font-size: 16rem;
+  font-style: none;
+  text-decoration: none;
+  color: #FFF;
+}
+
+nav a:hover {
+  /* font-weight: bold; */
+  color: #BBB;
+}

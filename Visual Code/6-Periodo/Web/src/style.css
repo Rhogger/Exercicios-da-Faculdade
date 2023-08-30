@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 6.25%;
+}
+
+body {
+  background-color: #18242C;
+
+  font-family: 'Lato', sans-serif;
+
+  height: 100vh;
+}

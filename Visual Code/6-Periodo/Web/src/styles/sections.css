@@ -1,0 +1,85 @@
+main {
+  margin-top: 100rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 140rem;
+}
+
+main section {
+  padding: 40rem;
+}
+
+main section h2 {
+  font-size: 30rem;
+  text-align: center;
+}
+
+main section p {
+  font-size: 16rem;
+  line-height: 170%;
+}
+
+main section:nth-child(even) {
+  background-color: #D9DFD8;
+}
+
+main section:nth-child(odd) {
+  background-color: #18242C;
+}
+
+main section:nth-child(even) h2 {
+  color: #18242C;
+}
+
+main section:nth-child(even) p {
+  color: #18242CC2;
+}
+
+main section:nth-child(odd) h2 {
+  color: #FFF;
+}
+
+main section:nth-child(odd) p {
+  color: #FFFFFFC2;
+}
+
+#description {
+  display: flex;
+  flex-direction: column;
+  gap: 22rem;
+}
+
+#description #history {
+  display: flex;
+  flex-direction: column;
+  gap: 16rem;
+}
+
+#speakers #speakers-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 55rem;
+}
+
+#speakers #speakers-group article {
+  max-width: 600rem;
+  width: 100%;
+
+  display: grid;
+  place-items: center;
+  gap: 16rem;
+}
+
+#speakers #speakers-group article img {
+  width: 100%;
+  height: 350rem;
+  object-fit: cover;
+
+  border-radius: 20rem;
+}
+
+#speakers #speakers-group article h3 {
+  font-size: 22rem;
+}
